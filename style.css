@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #222;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.5rem;
+}
+.box h2{
+    font-size: 3rem;
+    color: #4a3f92;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    height:513px;
+    width:513px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h3{
+    font-family: 'Lato', sans-serif;
+     font-size: 2rem;
+     text-align: center;
+     margin-top: 5rem;
+     color: #4a3f92;
+}
+.card{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #1e0f83;
+    margin-top: 4rem;
+}
+.card input{
+    padding: 6px 18px;
+    border-radius: 6px;
+    background-color: #69c2aa;
+    border: 1px solid  #92e2cd;
+}
+.card label{
+    padding-right: 57px;
+}
+@media  screen and (max-width:400px) {
+    .box h2{
+        font-size: 2rem;
+    }
+    .container h3 {
+        font-size: 1.5rem;
+    }
+    .card label {
+        padding-right: 33px;
+    }
+    .card{
+        font-size: 1.2rem;
+    }
+}
